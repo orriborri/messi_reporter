@@ -157,8 +157,8 @@ importers:
         specifier: ^4.36.1
         version: 4.36.1(@tanstack/react-query@4.36.1)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-query-next-experimental':
-        specifier: 5.15.3
-        version: 5.15.3(@tanstack/react-query@4.36.1)(next@14.0.4)(react@18.2.0)
+        specifier: 5.15.5
+        version: 5.15.5(@tanstack/react-query@4.36.1)(next@14.0.4)(react@18.2.0)
       '@trpc/client':
         specifier: ^10.45.0
         version: 10.45.0(@trpc/server@10.45.0)
@@ -3923,10 +3923,10 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@tanstack/react-query-next-experimental@5.15.3(@tanstack/react-query@4.36.1)(next@14.0.4)(react@18.2.0):
-    resolution: {integrity: sha512-C0AOH8J7NbYGAiVL0Jy8FBYaQ68gUqpJQM8e1BLUfknfHbd0ckICy1uIN5vgexUS4Wfu6K7SOFc1gKsOIVyccA==}
+  /@tanstack/react-query-next-experimental@5.15.5(@tanstack/react-query@4.36.1)(next@14.0.4)(react@18.2.0):
+    resolution: {integrity: sha512-bBIPSfBj7TSMyANCEBZ8ILOCJEFN5hLrFAW2B4LbJACn5xkwUWXTEsi0ML67imLKNwF30gu+bVCdSkndZ8RExQ==}
     peerDependencies:
-      '@tanstack/react-query': ^5.15.3
+      '@tanstack/react-query': ^5.15.5
       next: ^13 || ^14
       react: ^18.0.0
     dependencies:
@@ -9069,7 +9069,7 @@ packages:
     resolution: {integrity: sha512-Hh0ncPsHPVf6wXQSqJqB3K9Zbudht4aUtNpNXYXSxH+pteWqGAXnjtPsRAnCsCWl38wL0jYF0rJDdMajUI3BDw==}
     engines: {node: '>=16'}
     dependencies:
-      '@babel/traverse': 7.23.6
+      '@babel/traverse': 7.23.7
       '@babel/types': 7.23.6
       invariant: 2.2.4
       metro-symbolicate: 0.76.8
@@ -9134,7 +9134,7 @@ packages:
       '@babel/core': 7.23.7
       '@babel/generator': 7.23.6
       '@babel/template': 7.22.15
-      '@babel/traverse': 7.23.6
+      '@babel/traverse': 7.23.7
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - supports-color
@@ -9208,7 +9208,7 @@ packages:
       '@babel/generator': 7.23.6
       '@babel/parser': 7.23.6
       '@babel/template': 7.22.15
-      '@babel/traverse': 7.23.6
+      '@babel/traverse': 7.23.7
       '@babel/types': 7.23.6
       accepts: 1.3.8
       async: 3.2.4
