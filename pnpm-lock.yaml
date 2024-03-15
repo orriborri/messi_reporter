@@ -157,8 +157,8 @@ importers:
         specifier: ^4.36.1
         version: 4.36.1(@tanstack/react-query@4.36.1)(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-query-next-experimental':
-        specifier: 5.28.2
-        version: 5.28.2(@tanstack/react-query@4.36.1)(next@14.1.3)(react@18.2.0)
+        specifier: 5.28.4
+        version: 5.28.4(@tanstack/react-query@4.36.1)(next@14.1.3)(react@18.2.0)
       '@trpc/client':
         specifier: ^10.45.2
         version: 10.45.2(@trpc/server@10.45.2)
@@ -3860,10 +3860,10 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@tanstack/react-query-next-experimental@5.28.2(@tanstack/react-query@4.36.1)(next@14.1.3)(react@18.2.0):
-    resolution: {integrity: sha512-3LOpJDxRhhARcvM1gaO4C22vSS74bC6QdB0+j17FKHXicfbq7oXf7uAHuV1kQzP4qoTHUnvIA6G4s4rzR8z3dw==}
+  /@tanstack/react-query-next-experimental@5.28.4(@tanstack/react-query@4.36.1)(next@14.1.3)(react@18.2.0):
+    resolution: {integrity: sha512-fr/a83rfyH5+ojPqFucW6udHBglleWGUgYh3z9evNGzYkWWuHPAkb538v/iXyzeNyIAElFozM2QPDjrSEeoNaA==}
     peerDependencies:
-      '@tanstack/react-query': ^5.28.2
+      '@tanstack/react-query': ^5.28.4
       next: ^13 || ^14
       react: ^18.0.0
     dependencies:
