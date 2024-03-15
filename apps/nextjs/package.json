@@ -35,7 +35,7 @@
     "@acme/prettier-config": "^0.1.0",
     "@acme/tailwind-config": "^0.1.0",
     "@acme/tsconfig": "^0.1.0",
-    "@types/node": "^20.11.27",
+    "@types/node": "^20.11.28",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "dotenv-cli": "^7.4.1",
