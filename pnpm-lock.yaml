@@ -12,8 +12,8 @@ importers:
         specifier: ^0.1.0
         version: link:tooling/prettier
       '@manypkg/cli':
-        specifier: ^0.21.3
-        version: 0.21.3
+        specifier: ^0.21.4
+        version: 0.21.4
       '@turbo/gen':
         specifier: ^1.13.2
         version: 1.13.2(@types/node@20.12.4)(typescript@5.3.3)
@@ -1643,7 +1643,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.24.5
-      '@babel/helper-plugin-utils': 7.24.0
+      '@babel/helper-plugin-utils': 7.24.5
     dev: false
 
   /@babel/plugin-transform-object-rest-spread@7.24.1(@babel/core@7.24.5):
@@ -3229,8 +3229,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@manypkg/cli@0.21.3:
-    resolution: {integrity: sha512-ro6j5b+44dN2AfId23voWxdlOqUCSbCwUHrUwq0LpoN/oZy6zQFAHDwYHbw50j2nL9EgpwIA03ZjaBceuUcMrw==}
+  /@manypkg/cli@0.21.4:
+    resolution: {integrity: sha512-EACxxb+c/t6G0l1FrlyewZeBnyR5V1cLkXjnBfsay5TN1UgbilFpG6POglzn+lVJet9NqnEKe3RLHABzkIDZ0Q==}
     engines: {node: '>=14.18.0'}
     hasBin: true
     dependencies:
