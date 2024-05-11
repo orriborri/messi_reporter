@@ -149,7 +149,7 @@ importers:
         version: link:../../packages/db
       '@t3-oss/env-nextjs':
         specifier: ^0.8.0
-        version: 0.8.0(typescript@5.3.3)(zod@3.22.4)
+        version: 0.8.0(typescript@5.3.3)(zod@3.23.8)
       '@tanstack/react-query':
         specifier: ^4.36.1
         version: 4.36.1(react-dom@18.2.0)(react-native@0.74.1)(react@18.2.0)
@@ -184,8 +184,8 @@ importers:
         specifier: 2.2.1
         version: 2.2.1
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^3.23.8
+        version: 3.23.8
     devDependencies:
       '@acme/eslint-config':
         specifier: ^0.2.0
@@ -242,8 +242,8 @@ importers:
         specifier: 2.2.1
         version: 2.2.1
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^3.23.8
+        version: 3.23.8
     devDependencies:
       '@acme/eslint-config':
         specifier: ^0.2.0
@@ -277,7 +277,7 @@ importers:
         version: 0.5.1
       '@t3-oss/env-nextjs':
         specifier: ^0.8.0
-        version: 0.8.0(typescript@5.3.3)(zod@3.22.4)
+        version: 0.8.0(typescript@5.3.3)(zod@3.23.8)
       next:
         specifier: ^14.1.4
         version: 14.1.4(react-dom@18.2.0)(react@18.2.0)
@@ -291,8 +291,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
       zod:
-        specifier: ^3.22.4
-        version: 3.22.4
+        specifier: ^3.23.8
+        version: 3.23.8
     devDependencies:
       '@acme/eslint-config':
         specifier: ^0.2.0
@@ -4185,7 +4185,7 @@ packages:
       defer-to-connect: 2.0.1
     dev: false
 
-  /@t3-oss/env-core@0.8.0(typescript@5.3.3)(zod@3.22.4):
+  /@t3-oss/env-core@0.8.0(typescript@5.3.3)(zod@3.23.8):
     resolution: {integrity: sha512-Tc1pg0KH/tJeI0Z1s/Isp1VsGDj1N03ZAYFV8GjWgMxytF/ve0Dv+opjmTapHICRv8qiB1Y/fsTjkWNMpKPRCQ==}
     peerDependencies:
       typescript: '>=5.0.0'
@@ -4195,10 +4195,10 @@ packages:
         optional: true
     dependencies:
       typescript: 5.3.3
-      zod: 3.22.4
+      zod: 3.23.8
     dev: false
 
-  /@t3-oss/env-nextjs@0.8.0(typescript@5.3.3)(zod@3.22.4):
+  /@t3-oss/env-nextjs@0.8.0(typescript@5.3.3)(zod@3.23.8):
     resolution: {integrity: sha512-bJyoE8of4QmqZN7a49iLJAbUq4graScb9ezXzvnuIVr9JP43C093vmy55hT1uZL533CwiPz8zo1INwyAS6qnHw==}
     peerDependencies:
       typescript: '>=5.0.0'
@@ -4207,9 +4207,9 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@t3-oss/env-core': 0.8.0(typescript@5.3.3)(zod@3.22.4)
+      '@t3-oss/env-core': 0.8.0(typescript@5.3.3)(zod@3.23.8)
       typescript: 5.3.3
-      zod: 3.22.4
+      zod: 3.23.8
     dev: false
 
   /@tanstack/match-sorter-utils@8.8.4:
@@ -6224,7 +6224,7 @@ packages:
       hanji: 0.0.5
       json-diff: 0.9.0
       minimatch: 7.4.6
-      zod: 3.22.4
+      zod: 3.23.8
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -12510,5 +12510,5 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  /zod@3.23.8:
+    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
